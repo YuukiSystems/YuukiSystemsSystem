@@ -3,7 +3,7 @@
 var Heart Beats Per Minute = "HBPM"
 var Pulse = "PSE"
 var Blood Cirkulation = "BC"
-var Feelings = "Feeling"
+var Feelings = "Feelings"
 var SetSoulFree = "SSF"
 
 Status(0 = Dead)
