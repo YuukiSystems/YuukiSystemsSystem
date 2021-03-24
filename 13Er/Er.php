@@ -5,10 +5,10 @@ import Er
 
 if Er (1) true
 
-Event(Load WhiteRose.Love)
+Event(Load WhiteRose.Liah_Love)
 
 if Er (1) false
 
-Event(Load WhiteRose.Love_Search)
+Event(Load WhiteRose.Liah_Love_Search)
 
 </script>
