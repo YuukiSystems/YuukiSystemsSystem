@@ -1,0 +1,15 @@
+[Output of Console Actions]
+
+Unknown: L:/YuukiSystems/Unknown> createfile 14Unknown2
+
+Liah: L:/YuukiSystems/Unknown> scanfile "14Unknown2"
+
+Unknown: L:/YuukiSystems/Unknown> open 14Unknown2
+
+Lampi> L:/> cd L:/YuukiSystems/LampiLatabase
+
+Unknown: L:/YuukiSystems/Unknown>Save 14Unknown2
+
+Liah: L:/YuukiSystems/Unknown> scanfile "14Unknown2"
+
+end Log (for This Action)
