@@ -26,6 +26,7 @@ import Sie
 import Unknown
 
 //System bezeichnungen für das programmieren von YuukiSystems
+//System Declaration for the programming of YuukiSystems
 system.class = System
 adminconsole.class = AdminConsole
 main.class = YuukiSystems
@@ -40,7 +41,9 @@ relationship.male.class = Er
 relationship.female.class = Sie
 unknown.class = Unknown
 
-//aufgaben und berechtigungen im YuukiSystems für die einzelnen charaktere
+//aufgaben und berechtigungen im YuukiSystems System für die einzelnen charaktere
+//"aufgabengruppe" means "workgroup" and "berechtgung" means "Permissions"
+//"Sie" & "Er" means "She" and "Him"
 System (aufgabengruppe: SYSTEM | berechtigung: SYSTEM)
 AdminConsole (aufgabengruppe: SYSTEM.CONSOLE | berechtigung: SYSTEM, OPERATOR)
 YuukiSystems (aufgabengruppe: SYSTEM | berechtigung: SYSTEM, OPERATOR)

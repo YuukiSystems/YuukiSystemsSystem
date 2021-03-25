@@ -3,7 +3,7 @@
 var Heart Beats Per Minute = "HBPM"
 var Pulse = "PSE"
 var Blood Cirkulation = "BC"
-var Feelings = "Feeling"
+var Feelings = "Feelings"
 var SetSoulFree = "SSF"
 
 Status(0 = Dead)
@@ -11,8 +11,10 @@ Status(1 = Normal)
 Status(2 = Happy)
 Status(3 = Fear)
 Status(4 = Depressed)
-Status(5 = angry)
-Status(6 = sad)
+Status(5 = Angry)
+Status(6 = Sad)
+Status(7 = Love)
+Status(8 = Lonely)
 Status(420 = High)
 Status(69 = Adrenalin)
 normal: HBPM, PSE, BC, = 120, 120, "1"
