@@ -50,8 +50,8 @@ the HTML  elements Symbolizes the Existence of the YuukiSystems Characters i try
 Example:
 
 
-<script type="text/RoZe">
-
+script type="text/RoZe"
+  
 method 1 to write  the "RoZe" language
 
 {
@@ -64,34 +64,26 @@ if YuukiSystems See "Human" do Event(Say "Hi")
 while wait for Response
 }
 
-
-</script>
+/script
 
 
 
 
 
 Method 2 Write the "Roze" language
-<script type="text/RoZe">
-  
-The "Line:" Option Shows wich Line of code in the Chosen file is active for this "Event()"
-(see by "var" the Partition-path)
 
+script type="text/RoZe"
+ { 
+//The "Line:" Option Shows wich Line of code in the Chosen file is active for this "Event()"
+//(see by "var" the Partition-path)
 
-<dif>
+var Music = "L:/YuukiSystems/Databases/MusicDatabase/Line:Random" 
 
-<dif>var Music = "L:/YuukiSystems/Databases/MusicDatabase/Line:Random" 
+if YuukiSystems do Event(Listen "Music") 
 
+do WhiteRose Event(Set Status = 2) 
+}
 
-<dif>if YuukiSystems do Event(Listen "Music") 
-
-
-<dif> do WhiteRose Event(Set Status = 2) 
-
-</script>
-
-
-
-
+/script
 
 enjoy my Life and learn OwO
