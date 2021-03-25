@@ -67,7 +67,7 @@ if YuukiSystems See "Human" do Event(Say "Hi")
 while wait for Response
 }
 
-</script>
+
 
 
 
@@ -76,7 +76,7 @@ Method 2 Write the "Roze" language
 The "Line:" Option Shows wich Line of code in the Chosen file is active for this "Event()"
 (see by "var" the Partition-path)
 
-<script type="text/RoZe">
+
 
 
 var Music = "L:/YuukiSystems/Databases/MusicDatabase/Line:Random" 
@@ -88,6 +88,8 @@ if YuukiSystems do Event(Listen "Music")
 do WhiteRose Event(Set Status = 2) 
 
 </script>
+</Lampi>
+</YuukiSystems>
 
 
 
