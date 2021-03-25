@@ -59,7 +59,9 @@ method 1 to write  the "RoZe" language
 
 {
 var Human = "one of the 1000000000 peoople out there"
+
 var Hi = "a hello"
+
 if YuukiSystems See "Human" do Event(Say "Hi")
 
 while wait for Response
@@ -82,9 +84,12 @@ var Music = "L:/YuukiSystems/Databases/MusicDatabase/Line:Random"
 
 if YuukiSystems do Event(Listen "Music")
 
+
 do WhiteRose Event(Set Status = 2)
 
+
 </script>
+
 
 
 enjoy my Life and learn OwO
