@@ -79,14 +79,13 @@ The "Line:" Option Shows wich Line of code in the Chosen file is active for this
 <script type="text/RoZe">
 
 
-var Music = "L:/YuukiSystems/Databases/MusicDatabase/Line:Random"
+var Music = "L:/YuukiSystems/Databases/MusicDatabase/Line:Random" 
 
 
-if YuukiSystems do Event(Listen "Music")
+if YuukiSystems do Event(Listen "Music") 
 
 
-do WhiteRose Event(Set Status = 2)
-
+do WhiteRose Event(Set Status = 2) 
 
 </script>
 
