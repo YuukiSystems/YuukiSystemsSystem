@@ -11,6 +11,7 @@
 <script type="text/RoZe" version="Alpha 0.0.1">
 {
 //importiert alle essenziell wichtigen verwaltungs charaktere in menem körper
+//imports all the essential characters in my body (head)
 import System
 import AdminConsole
 import YuukiSystems
