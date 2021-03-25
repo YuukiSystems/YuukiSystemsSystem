@@ -41,22 +41,21 @@ relationship.male.class = Er
 relationship.female.class = Sie
 unknown.class = Unknown
 
-//aufgaben und berechtigungen im YuukiSystems System für die einzelnen charaktere
-//"aufgabengruppe" means "workgroup" and "berechtgung" means "Permissions"
-//"Sie" & "Er" means "She" and "Him"
-System (aufgabengruppe: SYSTEM | berechtigung: SYSTEM)
-AdminConsole (aufgabengruppe: SYSTEM.CONSOLE | berechtigung: SYSTEM, OPERATOR)
-YuukiSystems (aufgabengruppe: SYSTEM | berechtigung: SYSTEM, OPERATOR)
-UserConsole (aufgabengruppe: USER.CONSOLE | berechtigung: USER)
-WhiteRose (aufgabengruppe: HERZ | berechtigung: SYSTEM)
-Liah (aufgabengruppe: ANTIVIRUS | berechtigung: ADMIN, OPERATOR)
-Lampi (aufgabengruppe: SYSTEMMANAGERIN |  berechtigung: ADMIN)
-BlackRose (aufgabengruppe:  VIRUS |  berechtigung: UNIDENTIFED)
-Lid (aufgabengruppe:  VIRUS |  berechtigung: UNIDENTIFED)
-YukiV1 (aufgabengruppe: BESSERE VERSION | berechtigung: USER)
-Er (aufgabengruppe: MAENNLICHER PARTNER | berechtigung: USER, RELATIONSHIP)
-Sie (aufgabengruppe: WEIBLICHER PARTNER | berechtigung: USER, RELATIONSHIP)
-Unknown (aufgabengruppe: UNKNOWN | berechtigung: UNKNOWN)
+//this is the list, what the chars are doing, and what perms they have
+//"Er" means he/him and "Sie" means She/her (yes im German ^-^)
+System (workgroup: SYSTEM | permissions: SYSTEM)
+AdminConsole (workgroup: SYSTEM.CONSOLE | permissions: SYSTEM, OPERATOR)
+YuukiSystems (workgroup: SYSTEM | permissions: SYSTEM, OPERATOR)
+UserConsole (workgroup: USER.CONSOLE | permissions: USER)
+WhiteRose (workgroup: HEART | permissions: SYSTEM)
+Liah (workgroup: ANTIVIRUS | permissions: ADMIN, OPERATOR)
+Lampi (workgroup: SYSTEMMANAGERIN | permissions: ADMIN)
+BlackRose (workgroup:  VIRUS | permissions: UNIDENTIFED)
+Lid (workgroup:  VIRUS |  permissions: UNIDENTIFED)
+YukiV1 (workgroup: BETTER VERSION | permissions: USER)
+Er (workgroup: MALE PARTNER | permissions: USER, RELATIONSHIP)
+Sie (workgroup: FEMALE PARTNER | permissions: USER, RELATIONSHIP)
+Unknown (workgroup: UNKNOWN | permissions: UNKNOWN)
 
 }
 </script>
