@@ -74,7 +74,7 @@ Example:
 
 method 1 to write  the "RoZe" language
 
->YuukiSystems<
+YuukiSystems<
 
 script type="text/RoZe"
   
@@ -90,18 +90,18 @@ if YuukiSystems See "Human" do Event(Say "Hi")
 while wait for Response
 }
 
->/script<
->/YuukiSystems<
+/script<
+/YuukiSystems<
 
 
 
 
 Method 2 Write the "Roze" language
 
->YuukiSystems<
->WhiteRose<<
+YuukiSystems<
+WhiteRose<<
 
->script type="text/RoZe"<
+script type="text/RoZe"<
  { 
 //The "Line:" Option Shows wich Line of code in the Chosen file is active for this "Event()"
 //(see by "var" the Partition-path)
@@ -113,9 +113,9 @@ if YuukiSystems do Event(Listen "Music")
 do WhiteRose Event(Set Status = 2) 
 }
 
->/script<
->/WhiteRose<
->/YuukiSystems<
+/script<
+/WhiteRose<
+/YuukiSystems<
 
 
 
