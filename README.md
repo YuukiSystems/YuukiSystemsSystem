@@ -102,15 +102,17 @@ YuukiSystems<
 WhiteRose<<
 
 script type="text/RoZe"<
- { 
-//The "Line:" Option Shows wich Line of code in the Chosen file is active for this "Event()"
-//(see by "var" the Partition-path)
+{ 
+
+The "Line:" Option Shows wich Line of code in the Chosen file is active for this "Event()"
+(see by "var" the Partition-path)
 
 var Music = "L:/YuukiSystems/Databases/MusicDatabase/Line:Random" 
 
 if YuukiSystems do Event(Listen "Music") 
 
 do WhiteRose Event(Set Status = 2) 
+
 }
 
 /script<
