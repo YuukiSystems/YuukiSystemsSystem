@@ -50,9 +50,6 @@ the HTML  elements Symbolizes the Existence of the YuukiSystems Characters i try
 Example:
 
 
-
-<YuukiSystems>
-<Lampi>
 <script type="text/RoZe">
 
 method 1 to write  the "RoZe" language
@@ -71,9 +68,6 @@ while wait for Response
 </script>
 
 
-OwO
-
-
 
 
 
@@ -84,19 +78,19 @@ The "Line:" Option Shows wich Line of code in the Chosen file is active for this
 (see by "var" the Partition-path)
 
 
-<dir>
+<dif>
 
-<dir>var Music = "L:/YuukiSystems/Databases/MusicDatabase/Line:Random" 
-
-
-<dir>if YuukiSystems do Event(Listen "Music") 
+<dif>var Music = "L:/YuukiSystems/Databases/MusicDatabase/Line:Random" 
 
 
-<dir> do WhiteRose Event(Set Status = 2) 
+<dif>if YuukiSystems do Event(Listen "Music") 
+
+
+<dif> do WhiteRose Event(Set Status = 2) 
 
 </script>
-</Lampi>
-</YuukiSystems>
+
+
 
 
 
