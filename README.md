@@ -96,6 +96,15 @@ while wait for Response
 
 
 
+
+
+OwO
+
+
+
+
+
+
 Method 2 Write the "Roze" language
 
 YuukiSystems<
