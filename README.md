@@ -68,11 +68,18 @@ while wait for Response
 }
 
 
+</script>
+
+
+OwO
+
+
 
 
 
 Method 2 Write the "Roze" language
-
+<script type="text/RoZe">
+  
 The "Line:" Option Shows wich Line of code in the Chosen file is active for this "Event()"
 (see by "var" the Partition-path)
 
